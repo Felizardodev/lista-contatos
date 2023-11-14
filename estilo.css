@@ -59,3 +59,20 @@ body {
     margin: 5px 0 0;
     color: #aaa;
 }
+
+.list-item:hover {
+    background-color: #e8e8e8;
+}
+
+.list-item__action {
+    display: flex;
+    gap: 16ox;
+    align-items: center;
+    opacity: .5;
+
+    display: none;
+}
+
+.list-item:hover .list-item__action {
+    display: flex;
+}
